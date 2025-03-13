@@ -211,6 +211,132 @@ You would've already learnt circular, logarithmic, and exponential functions in 
 ```
 
 
+<script src="https://unpkg.com/function-plot/dist/function-plot.js">
+functionPlot({
+  "constants": {},
+  "legends": true,
+  "xAxis": {
+    "domain": {
+      "min": -10,
+      "max": 10
+    },
+    "label": "x"
+  },
+  "yAxis": {
+    "domain": {
+      "min": -10,
+      "max": 10
+    },
+    "label": "y"
+  },
+  "grid": true,
+  "data": [
+    {
+      "id": "gl5ysyt",
+      "scope": {},
+      "fnType": "linear",
+      "closed": false,
+      "offset": {},
+      "vector": {},
+      "range": {},
+      "skipTip": false,
+      "graphType": "polyline",
+      "points": [
+        [
+          0,
+          0
+        ]
+      ],
+      "derivative": {
+        "fn": "",
+        "updateOnMouseMove": true
+      },
+      "color": "#ff0000",
+      "name": "2^x",
+      "fn": "2^x"
+    },
+    {
+      "id": "2j4xscu",
+      "scope": {},
+      "fnType": "linear",
+      "closed": false,
+      "offset": {},
+      "vector": {},
+      "range": {},
+      "skipTip": false,
+      "graphType": "polyline",
+      "points": [
+        [
+          0,
+          0
+        ]
+      ],
+      "derivative": {
+        "fn": "",
+        "updateOnMouseMove": true
+      },
+      "color": "#00ff00",
+      "name": "3^x",
+      "fn": "3^x"
+    },
+    {
+      "id": "xhgz5ik",
+      "scope": {},
+      "fnType": "linear",
+      "closed": false,
+      "offset": {},
+      "vector": {},
+      "range": {},
+      "skipTip": false,
+      "graphType": "polyline",
+      "points": [
+        [
+          0,
+          0
+        ]
+      ],
+      "derivative": {
+        "fn": "",
+        "updateOnMouseMove": true
+      },
+      "color": "#ffff00",
+      "name": "4^x",
+      "fn": "4^x"
+    },
+    {
+      "id": "bh2qwvw",
+      "scope": {},
+      "fnType": "linear",
+      "closed": false,
+      "offset": {},
+      "vector": {},
+      "range": {},
+      "skipTip": false,
+      "graphType": "polyline",
+      "points": [
+        [
+          0,
+          0
+        ]
+      ],
+      "derivative": {
+        "fn": "",
+        "updateOnMouseMove": true
+      },
+      "color": "#0a64ff",
+      "fn": "5^x",
+      "name": "5^x"
+    }
+  ],
+  "tip": {
+    "renderer": "",
+    "yLine": true,
+    "xLine": true
+  },
+  "title": "",
+  "target": null
+})
+</script>
 
 
 ```functionplot
