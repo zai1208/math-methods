@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/methods-textbook/area-of-study-1/"}
+{"dg-publish":true,"dg-path":"Area of Study 1.md","permalink":"/area-of-study-1/"}
 ---
 
 
