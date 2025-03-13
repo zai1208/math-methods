@@ -83,8 +83,8 @@ You would've already learnt circular, logarithmic, and exponential functions in 
 
 <center> <h3> Graphs of <span class="math display">a^x</span> </h3></center>
 
-<img data-functionplot="
-{"
+```functionplot
+{
   "constants": {},
   "legends": true,
   "xAxis": {
@@ -207,12 +207,9 @@ You would've already learnt circular, logarithmic, and exponential functions in 
   },
   "title": "",
   "target": null
-"}" src="data:," >
-
-<img data-functionplot="{"constants":{},"legends":false,"xAxis":{"domain":{}},"yAxis":{"domain":{}},"grid":true,"data":[],"tip":{}}" src="data:,">
-
-
+}
 ```
+
 
 
 
