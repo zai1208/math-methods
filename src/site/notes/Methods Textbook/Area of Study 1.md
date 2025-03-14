@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"Area of Study 1.md","permalink":"/area-of-study-1/"}
 ---
 
-# Area of Study 1
-
 From the study design:
 
 > In this area of study students cover transformations of the plane and the behaviour of some elementary functions of a single real variable, including key features of their graphs such as axis intercepts, stationary points, points of inflection, domain (including maximal, implied or natural domain), co-domain and range, asymptotic behaviour and symmetry. The behaviour of functions and their graphs is to be explored in a variety of modelling contexts and theoretical investigations.
@@ -80,7 +78,6 @@ There are 4 more types of functions VCAA wants you to be able to graph and ident
 - And Circular functions: $y=\sin(x)$, $y=\cos(x)$, $y=\tan(x)$
 
 You would've already learnt circular, logarithmic, and exponential functions in Units 1 & 2 so we will just briefly show their graphs here
-
 <center> <h3> Graphs of <span class="math display">a^x</span> </h3></center>
 
 ```functionplot
@@ -210,133 +207,6 @@ You would've already learnt circular, logarithmic, and exponential functions in 
 }
 ```
 
-
-<script src="https://unpkg.com/function-plot/dist/function-plot.js">
-functionPlot({
-  "constants": {},
-  "legends": true,
-  "xAxis": {
-    "domain": {
-      "min": -10,
-      "max": 10
-    },
-    "label": "x"
-  },
-  "yAxis": {
-    "domain": {
-      "min": -10,
-      "max": 10
-    },
-    "label": "y"
-  },
-  "grid": true,
-  "data": [
-    {
-      "id": "gl5ysyt",
-      "scope": {},
-      "fnType": "linear",
-      "closed": false,
-      "offset": {},
-      "vector": {},
-      "range": {},
-      "skipTip": false,
-      "graphType": "polyline",
-      "points": [
-        [
-          0,
-          0
-        ]
-      ],
-      "derivative": {
-        "fn": "",
-        "updateOnMouseMove": true
-      },
-      "color": "#ff0000",
-      "name": "2^x",
-      "fn": "2^x"
-    },
-    {
-      "id": "2j4xscu",
-      "scope": {},
-      "fnType": "linear",
-      "closed": false,
-      "offset": {},
-      "vector": {},
-      "range": {},
-      "skipTip": false,
-      "graphType": "polyline",
-      "points": [
-        [
-          0,
-          0
-        ]
-      ],
-      "derivative": {
-        "fn": "",
-        "updateOnMouseMove": true
-      },
-      "color": "#00ff00",
-      "name": "3^x",
-      "fn": "3^x"
-    },
-    {
-      "id": "xhgz5ik",
-      "scope": {},
-      "fnType": "linear",
-      "closed": false,
-      "offset": {},
-      "vector": {},
-      "range": {},
-      "skipTip": false,
-      "graphType": "polyline",
-      "points": [
-        [
-          0,
-          0
-        ]
-      ],
-      "derivative": {
-        "fn": "",
-        "updateOnMouseMove": true
-      },
-      "color": "#ffff00",
-      "name": "4^x",
-      "fn": "4^x"
-    },
-    {
-      "id": "bh2qwvw",
-      "scope": {},
-      "fnType": "linear",
-      "closed": false,
-      "offset": {},
-      "vector": {},
-      "range": {},
-      "skipTip": false,
-      "graphType": "polyline",
-      "points": [
-        [
-          0,
-          0
-        ]
-      ],
-      "derivative": {
-        "fn": "",
-        "updateOnMouseMove": true
-      },
-      "color": "#0a64ff",
-      "fn": "5^x",
-      "name": "5^x"
-    }
-  ],
-  "tip": {
-    "renderer": "",
-    "yLine": true,
-    "xLine": true
-  },
-  "title": "",
-  "target": null
-})
-</script>
 
 
 ```functionplot
