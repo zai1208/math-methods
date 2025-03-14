@@ -80,6 +80,11 @@ There are 4 more types of functions VCAA wants you to be able to graph and ident
 You would've already learnt circular, logarithmic, and exponential functions in Units 1 & 2 so we will just briefly show their graphs here
 <center> <h3> Graphs of <span class="math display">a^x</span> </h3></center>
 
+# Graph of $a^x$
+
+
+
+
 ```functionplot
 {
   "constants": {},
