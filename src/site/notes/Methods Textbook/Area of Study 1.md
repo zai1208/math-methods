@@ -4,11 +4,12 @@
 
 From the study design:
 
+> [!info] Area of Study 1
 > In this area of study students cover transformations of the plane and the behaviour of some elementary functions of a single real variable, including key features of their graphs such as axis intercepts, stationary points, points of inflection, domain (including maximal, implied or natural domain), co-domain and range, asymptotic behaviour and symmetry. The behaviour of functions and their graphs is to be explored in a variety of modelling contexts and theoretical investigations.
 
 I will take you through this topic in the order of set theory, relations, functions, and graphs.
 
-Don't worry, this will be fun.
+Don't worry, this will be fun!
 
 # Set Theory
 
@@ -76,13 +77,17 @@ let's take a set of numbers say $\{1,2,3\}$ and label them $x$, so we have $x=\{
 
 We write what are called coordinates which represent $x$ and $y$ points on their respective axes like this $(x,y)$ (not to be confused with set notation).
 
-We can plot these 3 numbers like this:
+
+> [!NOTE] Note
+> Every graph on this website is interactive but restricted based on what I want you to be able to do
+
+We can plot these 3 numbers like this (note: you can click on the points to see their coordinates):
 
 <div id="3 number plot" style="width: 600px; height: 600px;"></div>
 
 <script>
   var elt = document.getElementById('3 number plot');
-  var calculator = Desmos.GraphingCalculator(elt, {lockViewport: true, expressionsCollapsed : true, expressions: false, settingsMenu : false, xAxisArrowMode: Desmos.AxisArrowModes.BOTH, yAxisArrowMode: Desmos.AxisArrowModes.BOTH });
+  var calculator = Desmos.GraphingCalculator(elt, {expressionsCollapsed : true, expressions: false, settingsMenu : false, xAxisArrowMode: Desmos.AxisArrowModes.BOTH, yAxisArrowMode: Desmos.AxisArrowModes.BOTH });
   calculator.setExpression({ id: 'a', latex: 'a=\\left[1,2,3\\right]' });
   calculator.setExpression({ id: 'b', latex: 'b=\\left[1,4,9\\right]' });
   calculator.setExpression({ id: 'c', latex: '\\left(a,b\\right)' });
