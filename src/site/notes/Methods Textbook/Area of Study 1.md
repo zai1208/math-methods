@@ -32,3 +32,48 @@ $\mathbb{Q}$ is an extension to $\mathbb{Z}$ to also include any number which ca
 $\mathbb{R}$ is the set that encompasses $\mathbb{Q}$ and $\mathbb{I}$ which is the set of irrational numbers, basically numbers like $\sqrt{2}$, $\pi$, etc.
 
 Complex and imaginary numbers aren't talked about in methods so we son't go over them.
+
+Now all of these can be expressed on the number line, but when we want to talk about subsets (part of a set) we use something called set notation.
+
+Set notation is methods is generally used to refer to a subset of the number line ($\mathbb{R}$) unless otherwise specified.
+
+The notation is very simple and is used as follows:
+
+- $(a,b)$ with parentheses represents a subset of $\mathbb{R}$ containing all numbers from $a$ to $b$ but **not** including $a$ and $b$
+- $[a,b]$ with square brackets represents a subset of $\mathbb{R}$ containing all numbers from $a$ to $b$ **including** $a$ and $b$
+- $\{a, b, c, \dots\}$ with curly braces represents a set containing only the values specified in it (aka a list)
+
+(Yes the first two notations can be mixed to produce $[a,b)$ and $(a,b]$)
+
+To combine sets or to exclude from sets we use the following notation:
+
+- $a \cup b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set at the **union** of $a$ and $b$ (i.e. **all** the values in $a$ and $b$ combined but excluding the duplicates)
+- $a \cap b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set at the **intersection** of $a$ and $b$ (i.e. what values are included in **both** $a$ and $b$)
+- $a\setminus b$ means what values are in a but are **not** in b (This is most commonly seen to exclude a number/set of numbers from $\mathbb{R}$, for example $\mathbb{R} \setminus \{2\}$ which means all real numbers except for 2)
+
+Now you might be wondering if we're getting anywhere close to functions with this. We absolutely are.
+
+# Relations
+
+This is the cartesian plane
+
+```dataviewjs
+//Some plotly examples require d3 library to work.
+//Since it's large and used by few examples,
+//I propose a workaround to import d3;
+//You need to download dependency from https://d3js.org/d3.v7.min.js
+//and place it in your vault.
+let path = app.vault.adapter.basePath;//absolute path to your vault
+var d3 = require(path+"\\utils\\d3.v7.min.js");
+
+//Replace this block with any example from plotly.com
+//NOTE: `Plotly.newPlot` won't work here, use `window.renderPlotly` instead
+var data = [
+{x:[0,1,2,3,4,5,6,7,8,9],y:[4,4,2,2,3,3,2,2,4,4]},
+{x:[0,1,2,3,4,5,6,7,8,9],y:[3,3,1,1,2,2,1,1,3,3]}
+];
+var layout = {};
+var config = {};
+
+window.renderPlotly(this.container, data, layout, config)
+```
