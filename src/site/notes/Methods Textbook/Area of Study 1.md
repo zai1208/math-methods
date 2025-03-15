@@ -77,10 +77,6 @@ let's take a set of numbers say $\{1,2,3\}$ and label them $x$, so we have $x=\{
 
 We write what are called coordinates which represent $x$ and $y$ points on their respective axes like this $(x,y)$ (not to be confused with set notation).
 
-
-> [!NOTE] Note
-> Every graph on this website is interactive but restricted based on what I want you to be able to do
-
 We can plot these 3 numbers like this (note: you can click on the points to see their coordinates):
 
 <div id="3 number plot" style="width: 600px; height: 600px;"></div>
@@ -93,6 +89,9 @@ We can plot these 3 numbers like this (note: you can click on the points to see 
   calculator.setExpression({ id: 'c', latex: '\\left(a,b\\right)' });
 
 </script>
+
+> [!note] Note
+> Every graph on this website is interactive but restricted based on what I want you to be able to do
 
 Just earlier we had a set of 3 numbers ($\{ 1,2,3 \}$) that we squared. We can apply that to all values of $\mathbb{R}$. so if we have $x=\mathbb{R}$ and we square $x$, that gives use $x^2$. Well, if that gives us our $y$-coordinate, then we can write it as $y=x^2$. That's a relation!
 
