@@ -59,12 +59,13 @@ This is the cartesian plane
 
 <script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 
-<div id="calculator" style="width: 600px; height: 400px;"></div>
+<div id="cartesian plane" style="width: 600px; height: 400px;"></div>
 
 
 <script>
-  var elt = document.getElementById('calculator');
-  var calculator = Desmos.GraphingCalculator(elt, {lockViewport: true, expressionsCollapsed : true});
+  var elt = document.getElementById('cartesian plane');
+  var calculator = Desmos.GraphingCalculator(elt, {lockViewport: true, expressionsCollapsed : true, expressions: false, settingsMenu : false});
 </script>
+
 
 
