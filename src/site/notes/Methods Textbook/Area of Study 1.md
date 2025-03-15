@@ -64,9 +64,7 @@ This is the cartesian plane
 
 <script>
   var elt = document.getElementById('calculator');
-  var calculator = Desmos.GraphingCalculator(elt);
-  console.log(calculator.options);
-  calculator.expressions = false;
+  var calculator = Desmos.GraphingCalculator(elt, {lockViewport: true, expressionsCollapsed : true});
 </script>
 
 
