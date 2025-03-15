@@ -59,7 +59,7 @@ This is the cartesian plane
 
 <script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 
-<div id="cartesian plane" style="width: 600px; height: 400px;"></div>
+<div id="cartesian plane" style="width: 600px; height: 600px;"></div>
 
 
 <script>
