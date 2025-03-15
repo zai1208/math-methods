@@ -2,6 +2,12 @@
 {"dg-publish":true,"dg-path":"Area of Study 1.md","permalink":"/area-of-study-1/"}
 ---
 
+<meta content="Area of Study 1" property="og:title" />
+<meta content="Math Methods" property="og:description" />
+<meta content="https://math-methods.vercel.app/area-of-study-1/" property="og:url" />
+<meta content="https://math-methods.vercel.app/favicon.svg" property="og:image" />
+
+
 From the study design:
 
 > [!info] Area of Study 1
