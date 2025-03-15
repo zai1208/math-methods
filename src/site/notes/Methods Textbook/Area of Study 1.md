@@ -84,7 +84,7 @@ We can plot these 3 numbers like this:
   var elt = document.getElementById('3 number plot');
   var calculator = Desmos.GraphingCalculator(elt, {lockViewport: true, expressionsCollapsed : true, expressions: false, settingsMenu : false, xAxisArrowMode: Desmos.AxisArrowModes.BOTH, yAxisArrowMode: Desmos.AxisArrowModes.BOTH });
   calculator.setExpression({ id: 'a', latex: 'a=\\left[1,2,3\\right]' });
-  calculator.setExpression({ id: 'b', latex: 'y=\\left[1,4,9\\right]' });
+  calculator.setExpression({ id: 'b', latex: 'b=\\left[1,4,9\\right]' });
   calculator.setExpression({ id: 'c', latex: '\\left(a,b\\right)' });
 
 </script>
