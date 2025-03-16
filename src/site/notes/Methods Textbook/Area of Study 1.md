@@ -55,7 +55,7 @@ The notation is very simple and is used as follows:
 
 To combine sets or to exclude from sets we use the following notation:
 
-- $a \cup b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set containing **both** $a$ and $b$ (i.e. **all** the values in $a$ and $b$ combined but excluding the duplicates). This is called the **union**
+- $a \cup b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set containing **both** $a$ and $b$ (i.e. **all** the values in $a$ and $b$ combined but only counting the duplicates once). This is called the **union**
 - $a \cap b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set at the **intersection** of $a$ and $b$ (i.e. what values are included in **both** $a$ and $b$)
 - $a\setminus b$ means what values are in a but are **not** in b (This is most commonly seen to exclude a number/set of numbers from $\mathbb{R}$, for example $\mathbb{R} \setminus \{2\}$ which means all real numbers except for 2)
 
