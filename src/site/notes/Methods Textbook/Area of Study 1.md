@@ -55,9 +55,9 @@ The notation is very simple and is used as follows:
 
 To combine sets or to exclude from sets we use the following notation:
 
-- $a \cup b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set containing **both** $a$ and $b$ (i.e. **all** the values in $a$ and $b$ combined but only counting the duplicates once). This is called the **union**
-- $a \cap b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set at the **intersection** of $a$ and $b$ (i.e. what values are included in **both** $a$ and $b$)
-- $a\setminus b$ means what values are in a but are **not** in b (This is most commonly seen to exclude a number/set of numbers from $\mathbb{R}$, for example $\mathbb{R} \setminus \{2\}$ which means all real numbers except for 2)
+- $a \cup b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set containing **both** $a$ and $b$ (i.e. **all** the values in $a$ and $b$ combined but only counting the duplicates once). This is called the **union**.
+- $a \cap b$ where $a$ and $b$ are sets (using either of the 3 notations mentioned above). This gives us the set at the **intersection** of $a$ and $b$ (i.e. what values are included in **both** $a$ and $b$).
+- $a\setminus b$ means what values are in a but are **not** in b (This is most commonly seen to exclude a number/set of numbers from $\mathbb{R}$, for example $\mathbb{R} \setminus \{2\}$ which means all real numbers except for 2).
 
 One more set of notations is:
 - $a \in b$ which mean $a$ is an element of $b$ where $a$ is **not** a set
@@ -67,7 +67,7 @@ Now you might be wondering if we're getting anywhere close to functions with thi
 
 # Relations
 
-This is the cartesian plane
+This is the Cartesian plane:
 
 <script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 
@@ -80,7 +80,7 @@ This is the cartesian plane
 
 It may seem boring, but how did this come about?
 
-let's take a set of numbers say $\{1,2,3\}$ and label them $x$, so we have $x=\{1,2,3\}$ and we take another 3 numbers that are the squares of these numbers $\{1,4,9\}$ and label them $y$, so we have $y=\{1,4,9\}$. We have **related** $x$ to $y$. You can plot $x$ on a number line labelled $x$ and plot $y$ on a number line labelled $y$. Well, some genius mathematician came up with the idea of rotating the $y$ number line by 90 degrees to create the $y$-axis and make the $x$ number line the $x$-axis. This is the cartesian plane.
+let's take a set of numbers say $\{1,2,3\}$ and label them $x$, so we have $x=\{1,2,3\}$ and we take another 3 numbers that are the squares of these numbers $\{1,4,9\}$ and label them $y$, so we have $y=\{1,4,9\}$. We have **related** $x$ to $y$. You can plot $x$ on a number line labelled $x$ and plot $y$ on a number line labelled $y$. Well, some genius mathematician came up with the idea of rotating the $y$ number line by 90 degrees to create the $y$-axis and make the $x$ number line the $x$-axis. This is the Cartesian plane.
 
 We write what are called coordinates which represent $x$ and $y$ points on their respective axes like this $(x,y)$ (not to be confused with set notation).
 
