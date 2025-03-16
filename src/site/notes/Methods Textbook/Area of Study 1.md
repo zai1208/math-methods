@@ -2,10 +2,11 @@
 {"dg-publish":true,"dg-path":"Area of Study 1.md","permalink":"/area-of-study-1/"}
 ---
 
-<meta content="Area of Study 1" property="og:title" />
-<meta content="Math Methods" property="og:description" />
-<meta content="https://math-methods.vercel.app/area-of-study-1/" property="og:url" />
-<meta content="https://raw.githubusercontent.com/zai1208/math-methods/refs/heads/main/src/site/favicon.png" property="og:image" />
+<meta name='twitter:card' content='summary' />
+<meta name='twitter:site' content='https://math-methods.vercel.app' />
+<meta name='twitter:title' content='Area of Study 1' />
+<meta name='twitter:description' content='Math Methods' />
+<meta name='twitter:image' content='https://math-methods.vercel.app/favicon.svg' />
 
 
 From the study design:
