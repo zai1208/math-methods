@@ -6,7 +6,7 @@
 <meta name='twitter:site' content='https://math-methods.vercel.app/area-of-study-1' />
 <meta name='twitter:title' content='Area of Study 1' />
 <meta name='twitter:description' content='Math Methods' />
-<meta name='twitter:image' content='https://raw.githubusercontent.com/zai1208/math-methods/refs/heads/main/src/site/favicon.svg' />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/zai1208/math-methods/refs/heads/main/src/site/favicon.png' />
 
 
 From the study design:

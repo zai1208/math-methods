@@ -6,7 +6,7 @@
 <meta name='twitter:site' content='https://math-methods.vercel.app' />
 <meta name='twitter:title' content='Home' />
 <meta name='twitter:description' content='Math Methods' />
-<meta name='twitter:image' content='https://raw.githubusercontent.com/zai1208/math-methods/refs/heads/main/src/site/favicon.svg' />
+<meta name='twitter:image' content='https://raw.githubusercontent.com/zai1208/math-methods/refs/heads/main/src/site/favicon.png' />
 
 
 I do not believe that textbooks should be over 1000 pages long with questions that do not help with the content, which is why I have written this. This "textbook" is divided into 2 sections, the first is all the content subdivided into the 4 area of studies, the second section is tips on answering questions along with specifically chosen exam questions and how to tackle unknown questions.
