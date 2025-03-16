@@ -31,7 +31,7 @@ This is a diagram of all numbers:
 ![Venn_Diagram_of_Numbers_Expanded.svg.png](/img/user/Methods%20Textbook/Venn_Diagram_of_Numbers_Expanded.svg.png)
 Now don't worry if you don't understand what all these letters mean, we'll go through them in a second.
 
-$\mathbb{N}$ is the set of all natural numbers. What is that? Literally just all positive integers (whole number). The numbers that you thought were the only existent ones when you were younger.
+$\mathbb{N}$ is the set of all natural numbers. What is that? Literally just all positive integers (whole numbers). The numbers that you thought were the only existent ones when you were younger.
 
 $\mathbb{Z}$ is an **extension** of $\mathbb{N}$ to also include $0$ and negative integers as well
 
