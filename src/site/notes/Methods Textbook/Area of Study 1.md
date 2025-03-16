@@ -5,7 +5,7 @@
 <meta content="Area of Study 1" property="og:title" />
 <meta content="Math Methods" property="og:description" />
 <meta content="https://math-methods.vercel.app/area-of-study-1/" property="og:url" />
-<meta content="https://raw.githubusercontent.com/zai1208/math-methods/refs/heads/main/src/site/favicon.svg" property="og:image" />
+<meta content="https://raw.githubusercontent.com/zai1208/math-methods/refs/heads/main/src/site/favicon.png" property="og:image" />
 
 
 From the study design:
