@@ -102,7 +102,6 @@ We can plot these 3 numbers like this (note: you can click on the points to see 
 
 Just earlier we had a set of 3 numbers ($\{ 1,2,3 \}$) that we squared. We can apply that to all values of $\mathbb{R}$. so if we have $x=\mathbb{R}$ and we square $x$, that gives use $x^2$. Well, if that gives us our $y$-coordinate, then we can write it as $y=x^2$. That's a relation!
 
-We will later use calculus which is discussed in [[Methods Textbook/Area of Study 4\|Area of Study 4]]
 
 
 
