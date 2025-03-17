@@ -71,12 +71,14 @@ This is the Cartesian plane:
 
 <script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 
-<div id="cartesian plane" style="width: 100%; height: 600px;"></div>
+<div class="mathhide" id="cartesian plane" style="width: 100%; height: 600px;"></div>
 
 <script>
   var elt = document.getElementById('cartesian plane');
   var calculator = Desmos.GraphingCalculator(elt, {lockViewport: true, expressionsCollapsed : true, expressions: false, settingsMenu : false, xAxisArrowMode: Desmos.AxisArrowModes.BOTH, yAxisArrowMode: Desmos.AxisArrowModes.BOTH });
 </script>
+
+
 
 It may seem boring, but how did this come about?
 
@@ -86,7 +88,7 @@ We write what are called coordinates which represent $x$ and $y$ points on their
 
 We can plot these 3 numbers like this (note: you can click on the points to see their coordinates):
 
-<div id="3 number plot" style="width: 100%; height: 600px;"></div>
+<div class="mathhide" id="3 number plot" style="width: 100%; height: 600px;"></div>
 
 <script>
   var elt = document.getElementById('3 number plot');
@@ -97,8 +99,12 @@ We can plot these 3 numbers like this (note: you can click on the points to see 
 
 </script>
 
+
+
+
+
 > [!note] Note
-> Every graph on this website is interactive but restricted based on what I want you to be able to do.
+> Every graph on this website is interactive (unless you are using the PDF version) but restricted based on what I want you to be able to do.
 
 Just earlier we had a set of 3 numbers ($\{ 1,2,3 \}$) that we squared. We can apply that to all values of $\mathbb{R}$. so if we have $x=\mathbb{R}$ and we square $x$, that gives use $x^2$. Well, if that gives us our $y$-coordinate, then we can write it as $y=x^2$. That's a relation!
 
