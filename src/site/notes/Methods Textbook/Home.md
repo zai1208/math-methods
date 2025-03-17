@@ -16,3 +16,6 @@ The 4 Area of studies are:
 - [[Methods Textbook/Area of Study 2\|Area of Study 2]] - Algebra, number, and structure 
 - [[Methods Textbook/Area of Study 3\|Area of Study 3]] - Calculus
 - [[Methods Textbook/Area of Study 4\|Area of Study 4]] - Data analysis, probability, and statistics
+
+
+All Graphs on this page are created with the Desmos API, used with permission from Desmos Studio PBC.
