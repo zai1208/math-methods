@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-path":"Area of Study 1.md","permalink":"/area-of-study-1/"}
 ---
 
+
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='https://math-methods.vercel.app/area-of-study-1' />
 <meta name='twitter:title' content='Area of Study 1' />
@@ -112,3 +113,4 @@ Just earlier we had a set of 3 numbers ($\{ 1,2,3 \}$) that we squared. We can a
 
 
 
+#functions #set_theory 
