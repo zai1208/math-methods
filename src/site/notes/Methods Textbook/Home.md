@@ -18,4 +18,4 @@ The 4 Area of studies are:
 - [[Methods Textbook/Area of Study 4\|Area of Study 4]] - Data analysis, probability, and statistics
 
 
-All Graphs on this page are created with the Desmos API, used with permission from Desmos Studio PBC.
+All Graphs on this website are created with the Desmos API, used with permission from Desmos Studio PBC.
