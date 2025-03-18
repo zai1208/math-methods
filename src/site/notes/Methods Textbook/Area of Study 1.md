@@ -87,7 +87,7 @@ let's take a set of numbers say $\{1,2,3\}$ and label them $x$, so we have $x=\{
 
 We write what are called coordinates which represent $x$ and $y$ points on their respective axes like this $(x,y)$ (not to be confused with set notation).
 
-We can plot these 3 numbers like this (note: you can click on the points to see their coordinates):
+We can plot these 3 numbers like this (note: you can click on the points to see their coordinates unless you are using the PDF version):
 
 <div class="mathhide" id="3 number plot" style="width: 100%; height: 600px;"></div>
 
@@ -102,8 +102,6 @@ We can plot these 3 numbers like this (note: you can click on the points to see 
 
 
 
-
-
 > [!note] Note
 > Every graph on this website is interactive (unless you are using the PDF version) but restricted based on what I want you to be able to do.
 
@@ -111,5 +109,17 @@ Just earlier we had a set of 3 numbers ($\{ 1,2,3 \}$) that we squared. We can a
 
 # Functions
 
+Relations are literally just any $y$ point related to any $x$ point. A function is something that takes an input ($x$) and **returns** an output ($y$). This will make absolute sense to programmers but no sense at all to anyone else. For all those non-programmers out there, here is how they work:
 
+## How functions work
 
+Let's say you have some math expression that you want to do like squaring a number. You want to apply this to $\mathbb{R}$, so what you do is you end up making a function $f(x)$ (pronounced "$f$ of $x$") that takes in any number $x$. We now define this $f(x)$ by setting it equal to $x^2$ (i.e. the square of the number we put into the function). So it now becomes $f(x)=x^2$.
+
+This may seem confusing but let's try this on a few numbers.
+Well $1^2=1$ and $f(1)=1^2$
+Similarly $2^2=4$ and $f(2)=2^2=4$
+And it goes on and on
+
+My best bet at simplifying functions would be to say that they take a complex equation of math, for example $x^4+5x^3+9x^2+7x+10$ and allow you to write $f(x)$ (or any letter instead of $f$) instead of having to rewrite this entire equation every time.
+
+Now, you might be thinking what's the difference between a relation and a function? Well relations can have something applied to the $y$ like $y^2=x$ whereas functions can have nothing applied to $f(x)$ which leads us to one-to-one, many-to-one, and one-to-many relations. Firstly, an equation like $y^2=x$ is a one-to-many (i.e. one $x$ value gives you multiple $y$ values) relation and does not count as a function. The others (one-to-one and many-to-one) are functions.
