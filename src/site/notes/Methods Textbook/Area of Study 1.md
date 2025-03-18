@@ -113,4 +113,3 @@ Just earlier we had a set of 3 numbers ($\{ 1,2,3 \}$) that we squared. We can a
 
 
 
-#functions #set_theory 

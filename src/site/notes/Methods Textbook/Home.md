@@ -19,7 +19,8 @@ I do not believe that textbooks should be over 1000 pages long with questions th
 - [[Methods Textbook/Area of Study 4\|Area of Study 4]] - Data analysis, probability, and statistics
 
 ## Tips for exams
-- How to 
+- [[How to answer select exam questions\|How to answer select exam questions]]
+- [[Alex Belle's 6 step method to answer application questions\|Alex Belle's 6 step method to answer application questions]]
 
 
 
