@@ -22,6 +22,6 @@ I do not believe that textbooks should be over 1000 pages long with questions th
 - [[How to answer select exam questions\|How to answer select exam questions]]
 - [[Alex Belle's 6 step method to answer application questions\|Alex Belle's 6 step method to answer application questions]]
 
-
+If you have any feedback to give me, please email me at: zai1208@outlook.com I really appreciate all feedback
 
 All Graphs on this website are created with the Desmos API, used with permission from Desmos Studio PBC.
