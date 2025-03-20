@@ -116,7 +116,7 @@ Relations are literally just any $y$ point related to any $x$ point. A function 
 Let's say you have some math expression that you want to do like squaring a number. You want to apply this to $\mathbb{R}$, so what you do is you end up making a function $f(x)$ (pronounced "$f$ of $x$") that takes in any number $x$. We now define this $f(x)$ by setting it equal to $x^2$ (i.e. the square of the number we put into the function). So it now becomes $f(x)=x^2$.
 
 This may seem confusing but let's try this on a few numbers.
-Well $1^2=1$ and $f(1)=1^2$
+Well $1^2=1$ and $f(1)=1^2=1$
 Similarly $2^2=4$ and $f(2)=2^2=4$
 And it goes on and on
 
