@@ -138,7 +138,7 @@ Here's a desmos graph to illustrate (you can play around with the slider for $a$
   var calculator = Desmos.GraphingCalculator(elt, {settingsMenu : false, xAxisArrowMode: Desmos.AxisArrowModes.BOTH, yAxisArrowMode: Desmos.AxisArrowModes.BOTH });
   calculator.setExpression({ id: 'a', latex: 'x=a' });
   calculator.setExpression({ id: 'b', latex: 'y=x^2' });
-  calculator.setExpression({ id: 'c', latex: 'x^2=y2' });
+  calculator.setExpression({ id: 'c', latex: 'x^2=y^2' });
   calculator.setExpression({ id: 'd', latex: 'a=0' });
 
 </script>
