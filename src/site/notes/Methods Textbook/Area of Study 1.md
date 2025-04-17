@@ -138,7 +138,9 @@ Here's a desmos graph to illustrate (you can play around with the slider for $a$
   var calculator = Desmos.GraphingCalculator(elt, {settingsMenu : false, xAxisArrowMode: Desmos.AxisArrowModes.BOTH, yAxisArrowMode: Desmos.AxisArrowModes.BOTH });
   calculator.setExpression({ id: 'a', latex: 'x=a' });
   calculator.setExpression({ id: 'b', latex: 'y=x^2' });
-  calculator.setExpression({ id: 'c', latex: 'y=x^3' });
+  calculator.setExpression({ id: 'c', latex: 'x^2=y2' });
   calculator.setExpression({ id: 'd', latex: 'a=0' });
 
 </script>
+
+So, in this case $y=x^2$ is one-to-one as the line only intercepts it at one point for every value of $a$, and $x^2=y^2$ would be a relation and not a function as the line intercepts it at two points in many places
