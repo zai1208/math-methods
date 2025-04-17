@@ -123,3 +123,22 @@ And it goes on and on
 My best bet at simplifying functions would be to say that they take a complex equation of math, for example $x^4+5x^3+9x^2+7x+10$ and allow you to write $f(x)$ (or any letter instead of $f$) instead of having to rewrite this entire equation every time.
 
 Now, you might be thinking what's the difference between a relation and a function? Well relations can have something applied to the $y$ like $y^2=x$ whereas functions can have nothing applied to $f(x)$ which leads us to one-to-one, many-to-one, and one-to-many relations. Firstly, an equation like $y^2=x$ is a one-to-many (i.e. one $x$ value gives you multiple $y$ values) relation and does not count as a function. The others (one-to-one and many-to-one) are functions.
+
+> [!note] Note
+> There is one more type of relation called a many-to-many relation which only applies to circles, ellipses, and conics, of which I believe only circles and ellipses are discussed in methods.
+
+The simplest way to determine whether a relation is a function, is to simply get a vertical line and pass it through the graph (left to right or right to left, whatever you prefer) and if the line only passes through the graph once for the entirety of the graph.
+
+Here's a desmos graph to illustrate:
+
+<div class="mathhide" id="3 number plot" style="width: 100%; height: 600px;"></div>
+
+<script>
+  var elt = document.getElementById('3 number plot');
+  var calculator = Desmos.GraphingCalculator(elt, {settingsMenu : false, xAxisArrowMode: Desmos.AxisArrowModes.BOTH, yAxisArrowMode: Desmos.AxisArrowModes.BOTH });
+  calculator.setExpression({ id: 'a', latex: 'y=a' });
+  calculator.setExpression({ id: 'b', latex: 'y=x^2' });
+  calculator.setExpression({ id: 'c', latex: 'y=x^3' });
+  calculator.setExpression({ id: 'd', latex: 'a=0' });
+
+</script>
