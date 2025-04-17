@@ -129,14 +129,14 @@ Now, you might be thinking what's the difference between a relation and a functi
 
 The simplest way to determine whether a relation is a function, is to simply get a vertical line and pass it through the graph (left to right or right to left, whatever you prefer) and if the line only passes through the graph once for the entirety of the graph.
 
-Here's a desmos graph to illustrate:
+Here's a desmos graph to illustrate (you can play around with the slider for a to see this phenomon for yourself):
 
-<div class="mathhide" id="3 number plot" style="width: 100%; height: 600px;"></div>
+<div class="mathhide" id="relations and functions" style="width: 100%; height: 600px;"></div>
 
 <script>
-  var elt = document.getElementById('3 number plot');
+  var elt = document.getElementById('relations and functions');
   var calculator = Desmos.GraphingCalculator(elt, {settingsMenu : false, xAxisArrowMode: Desmos.AxisArrowModes.BOTH, yAxisArrowMode: Desmos.AxisArrowModes.BOTH });
-  calculator.setExpression({ id: 'a', latex: 'y=a' });
+  calculator.setExpression({ id: 'a', latex: 'x=a' });
   calculator.setExpression({ id: 'b', latex: 'y=x^2' });
   calculator.setExpression({ id: 'c', latex: 'y=x^3' });
   calculator.setExpression({ id: 'd', latex: 'a=0' });
