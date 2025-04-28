@@ -127,9 +127,9 @@ Now, you might be thinking what's the difference between a relation and a functi
 > [!note] Note
 > There is one more type of relation called a many-to-many relation which only applies to circles, ellipses, and conics, of which I believe only circles and ellipses are discussed in methods.
 
-The simplest way to determine whether a relation is a function is to simply get a vertical line and pass it through the graph (left to right or right to left, whatever you prefer) and if the line only passes through the graph once for the entirety of the graph.
+The simplest way to determine whether a relation is a function is to simply get a vertical line and pass it through the graph (left to right or right to left, whatever you prefer) and if the line only passes through the graph once for the entirety of the graph then it is a function.
 
-Here's a desmos graph to illustrate (you can play around with the slider for $a$ to see this for yourself):
+Here's a Desmos graph to illustrate (you can play around with the slider for $a$ to see this for yourself):
 
 <div class="mathhide" id="relations and functions" style="width: 100%; height: 600px;"></div>
 
